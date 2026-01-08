@@ -13,18 +13,18 @@ draft: true
 
 创建用户
 
-```postgresql
+```sql
 create user guest with password '123456';
 ```
 
 创建数据库并指定 owner
 
-```postgresql
+```sql
 create database chat owner guest;
 ```
 
 开启 UUID 生成插件
 
-```postgresql
+```sql
 create extension if not exists "uuid-ossp";
 ```

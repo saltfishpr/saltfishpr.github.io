@@ -45,7 +45,7 @@ git config --global credential.helper store
 
 增加远程地址的时候带上密码
 
-```
+```shell
 git remote -v
 
 # https://yourname:password@github.com/saltfishpr/go-learning.git
